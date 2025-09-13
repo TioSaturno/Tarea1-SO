@@ -106,12 +106,12 @@ Salir
 3. **Comunicación**: 
    - Mensajes normales → `log`
    - Comandos de reporte → `reports`
-4. **Gestión de reportes**: Usuarios con 2+ reportes son automáticamente expulsados
+4. **Gestión de reportes**: Usuarios con 10+ reportes son automáticamente expulsados
 
 ## 🐛 Características del Sistema de Reportes
 
 - Cada reporte se registra por PID del usuario
-- Al alcanzar **2 reportes**, el usuario es automáticamente bloqueado
+- Al alcanzar **10 reportes**, el usuario es automáticamente bloqueado
 - El sistema mantiene un contador de reportes por usuario
 - Los reportes se procesan en tiempo real
 
